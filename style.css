@@ -1,0 +1,155 @@
+/* General Styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at center, #fff7e6, #ffcccc);
+  background-attachment: fixed;
+}
+
+/* Header Styles */
+
+header {
+  text-align: center;
+  padding: 2em;
+  background: linear-gradient(to right, #ff99cc, #ffcc99); /* Gradient background */
+  color: white;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  margin-top: -0.5em;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  color: #ff6699;
+}
+
+/* Grid Layout for General Images */
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+  gap: 1em;
+  margin-top: 2em; /* Space above the images */
+}
+
+.images img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add rounded corners */
+}
+
+/* Circular Shape for Favorite Ice Cream Images */
+
+.favorite-icecream {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.favorite-icecream img {
+  width: 200px;
+  height: 200px; /* Ensure the height matches width for circular shape */
+  border-radius: 50%; /* Circle shape */
+  object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.favorite-icecream p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+/* Table Styles */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5em;
+  border: 1px solid #ff6699;
+}
+
+th {
+  background-color: #ffcc99;
+}
+
+td {
+  background-color: #fff7e6;
+}
+
+/* Footer Styles */
+
+footer {
+  background: #ff99cc;
+  padding: 2em;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.company-info {
+  margin: 1em;
+}
+
+.contact-form {
+  margin: 1em;
+}
+
+.contact-form h3 {
+  font-family: 'Pacifico', cursive;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff6699;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #ff3366;
+}
